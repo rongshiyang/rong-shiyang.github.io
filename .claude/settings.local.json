@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C \"D:\\\\Jun-CEN.github.io-master\\\\Jun-CEN.github.io-master\" remote -v)"
+      "Bash(git -C \"D:\\\\Jun-CEN.github.io-master\\\\Jun-CEN.github.io-master\" remote -v)",
+      "Bash(git *)",
+      "Bash(ssh -T git@github.com)"
     ]
   }
 }
